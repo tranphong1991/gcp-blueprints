@@ -1,4 +1,4 @@
-export MGMT_PROJECT=<the project where you deploy your management cluster>
-export MGMT_DIR=<path to your management cluster configuration directory>
-export MGMT_NAME=<name of your management cluster>
-export LOCATION=<location of your management cluster>
+export MGMT_PROJECT=machine-learning-lab-315009
+export MGMT_DIR=~/gcp-blueprints/management/
+export MGMT_NAME=kflow-mg
+export LOCATION=us-central1-b
