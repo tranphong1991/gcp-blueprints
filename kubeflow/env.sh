@@ -46,10 +46,10 @@ export BUCKET_NAME="${KF_PROJECT}-kfp"
 # Kubeflow cluster is a zonal cluster or a regional cluster.
 # Specify LOCATION as a region like the following line to create a regional Kubeflow cluster.
 # export LOCATION=us-central1
-export LOCATION=us-central1-c
+export LOCATION=us-central1-b
 # REGION should match the region part of LOCATION.
 export REGION=us-central1
 # Preferred zone of Cloud SQL. Note, ZONE should be in REGION.
-export ZONE=us-central1-c
+export ZONE=us-central1-b
 # Anthos Service Mesh version label
 export ASM_LABEL=asm-1104-6
