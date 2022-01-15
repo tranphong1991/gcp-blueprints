@@ -18,10 +18,10 @@ metadata:
   clusterName: "PROJECT/LOCATION/KUBEFLOW-NAME" # kpt-set: ${gcloud.core.project}/${location}/${name}
   name: KUBEFLOW-NAME-cpu-pool-v1 # kpt-set: ${name}-cpu-pool-v1
 spec:
-  initialNodeCount: 1
+  initialNodeCount: 2
   autoscaling:
-    minNodeCount: 1
-    maxNodeCount: 4
+    minNodeCount: 2
+    maxNodeCount: 8
   nodeConfig:
     machineType: e2-standard-8
     minCpuPlatform: 'Intel Broadwell'
