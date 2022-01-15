@@ -3,19 +3,19 @@
 
 # The KF_PROJECT env var contains the Google Cloud project ID where Kubeflow
 # cluster will be deployed to.
-export KF_PROJECT=<google-cloud-project-id>
+export KF_PROJECT=machine-learning-lab-315009
 # You can get your project number by running this command
 # (replace ${KF_PROJECT} with the actual project ID):
-# gcloud projects describe --format='value(projectNumber)' "${KF_PROJECT}"
-export KF_PROJECT_NUMBER=<google-cloud-project-number>
+# gcloud projects describe --format='value(projectNumber)' "machine-learning-lab-315009"
+export KF_PROJECT_NUMBER=381162538101
 # ADMIN_EMAIL env var is the Kubeflow admin's email address, it should be
 # consistent with login email on Google Cloud.
 # Example: admin@gmail.com
-export ADMIN_EMAIL=<administrator-full-email-address>
+export ADMIN_EMAIL=phong.nguyen@codelink.io
 # The MGMT_NAME env var contains the name of your management cluster created in
 # management cluster setup:
 # https://www.kubeflow.org/docs/distributions/gke/deploy/management-setup/
-export MGMT_NAME=<management-cluster-name>
+export MGMT_NAME=kflow-mg
 # The MGMTCTXT env var contains a kubectl context that connects to the management
 # cluster. By default, management cluster setup creates a context named
 # ${MGMT_NAME} for you.
