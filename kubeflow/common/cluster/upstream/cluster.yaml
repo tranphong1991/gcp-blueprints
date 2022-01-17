@@ -59,7 +59,7 @@ spec:
   loggingService: logging.googleapis.com/kubernetes
   monitoringService: monitoring.googleapis.com/kubernetes
   nodeConfig:
-    machineType: e2-standard-8
+    machineType: e2-custom-10-32768
     metadata:
       disable-legacy-endpoints: "true"
     oauthScopes:
