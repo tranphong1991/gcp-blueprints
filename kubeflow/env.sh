@@ -15,7 +15,7 @@ export ADMIN_EMAIL=phong.nguyen@codelink.io
 # The MGMT_NAME env var contains the name of your management cluster created in
 # management cluster setup:
 # https://www.kubeflow.org/docs/distributions/gke/deploy/management-setup/
-export MGMT_NAME=kflow-mg
+export MGMT_NAME=kflow-mg1
 # The MGMTCTXT env var contains a kubectl context that connects to the management
 # cluster. By default, management cluster setup creates a context named
 # ${MGMT_NAME} for you.
@@ -33,7 +33,7 @@ export MGMTCTXT="${MGMT_NAME}"
 # * only contain lowercase letters, numbers and "-"s (hyphens)
 # * end with a number or a letter
 # * contain no more than 24 characters
-export KF_NAME=kubeflow
+export KF_NAME=kflow2
 # Default values for managed storage used by Kubeflow Pipelines (KFP), you can
 # override as you like.
 # The CloudSQL instance and Cloud Storage bucket instance are created during
